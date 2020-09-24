@@ -4,7 +4,13 @@
 
 This is a command line package to find content set within text boundaries within a "model" file to then use that to update the content sat within matching bounds in other files.
 
-### Usage
+## Install
+
+```bash
+npm install -g update-within
+```
+
+## Usage
 
 ```bash
 # Syntax
@@ -17,7 +23,7 @@ update-within [options] model_file update_file...
 update-within index.html page2.html page3.html
 ```
 
-### Package State
+## Package State
 
 This was quickly made for a specific use-case and therefore:
 * Has not been thoroughly tested.
